@@ -15,9 +15,9 @@ const page = async ({ params: { categoryName } }) => {
 
     if (categorizedProducts.length === 0)
         return (
-            <h1 className="text-center">
-                No products found for the category{" "}
-                <span className="font-bold">{categoryName}</span>{" "}
+            <h1 className="text-3xl">
+                No products found for{" "}
+                <span className="font-bold">{categoryName}</span> category
             </h1>
         );
     return (
