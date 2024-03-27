@@ -79,6 +79,8 @@ const ProductDetailsPage = ({ product }) => {
                                 </span>
                                 &nbsp;
                                 <span className="font-bold text-2xl">
+                                    {" "}
+                                    $
                                     {(
                                         price -
                                         (price * discountPercentage) / 100
