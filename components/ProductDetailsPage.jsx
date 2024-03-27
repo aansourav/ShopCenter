@@ -74,6 +74,7 @@ const ProductDetailsPage = ({ product }) => {
                                 <span className="text-rose-600 opacity-60 line-through">
                                     ${price}
                                 </span>
+                                &nbsp;
                                 <span className="font-bold text-2xl">
                                     {(
                                         price -
