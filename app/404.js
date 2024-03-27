@@ -1,3 +1,5 @@
-export default function Custom404() {
-    return <h1>404 - Page Not Found</h1>;
-}
+const NotFound = () => {
+    return <div>404 - Page Not Found</div>;
+};
+
+export default NotFound;

@@ -1,6 +1,10 @@
 import CategorySidebar from "@/components/CategorySidebar";
 import SubscribeSection from "@/components/SubscribeSection";
 
+export const metadata = {
+    title: "ShopCenter | Category",
+    description: "ShopCenter | The best place to shop online",
+};
 export default function Layout({ children }) {
     return (
         <>
